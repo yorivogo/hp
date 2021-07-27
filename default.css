@@ -58,7 +58,11 @@
 		margin: 0px auto;
 		width: 1200px;
 	}
-	
+	.careers
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
 
 /*********************************************************************************/
 /* Form Style                                                                    */
@@ -624,7 +628,8 @@
 	{
 		color: rgba(0,0,0,0.8);
 	}
-
+	#portfolio:after{content:''; display:block; clear:both;
+					 }
 	.column1,
 	.column2,
 	.column3,
@@ -749,5 +754,19 @@
 		text-align: center;
 		color: #FFFFFF;
 	}
-	
-	
+/*********************************************************************************/
+/* careers Style                                                                  */
+/*********************************************************************************/
+
+.careers h3{color:white;}
+.careers:after{content:''; clear:both; display:block;}
+.careers{margin-top:30px;}
+.careers .sub1 img{width:282px; float:left; padding-right:30px}
+.careers .text{float:left;}
+.careers .text h3{padding-bottom:10px;}
+.history{
+		 width:1200px;
+		 margin:0 auto;		
+		}
+.history img{border:none;
+			 margin-top:100px;}		
